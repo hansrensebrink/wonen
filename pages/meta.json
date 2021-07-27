@@ -1,6 +1,6 @@
 {
-  "Home": "Home",
-  "Inspiratie": "Inspiratie",
+  "index": "Home",
+  "posts": "Inspiratie",
   "Blog": "Blog",
-  "Linkpartners": "Linkpartners",
+  "Linkpartners.mdx": "Linkpartners",
 }
