@@ -1,238 +1,40 @@
 ---
-title: Next.js Pages
+title: Hoe bijen zien
 date: 2021/3/18
-description: Learn more about Next.js pages.
+description: Hoe bijen zien: kleine bultjes op bloemblaadjes zorgen voor intense kleuren.
 tag: web development
 author: You
 ---
 
-# Next.js Pages
+# Hoe bijen zien: kleine bultjes op bloemblaadjes creëren intense kleuren en trekken bestuivers aan
 
-In Next.js, a **page** is a [React Component](https://reactjs.org/docs/components-and-props.html) exported from a `.js`, `.jsx`, `.ts`, or `.tsx` file in the `pages` directory. Each page is associated with a route based on its file name.
 
-**Example**: If you create `pages/about.js` that exports a React component like below, it will be accessible at `/about`.
+De intense kleuren van bloemen inspireren ons al eeuwenlang. Ze worden gevierd met gedichten en liederen waarin het rood van rozen en blauw van viooltjes wordt geprezen, en hebben iconische kunstwerken geïnspireerd, zoals de zonnebloemen van Vincent van Gogh.
+Maar bloemen evolueerden hun kleur niet voor ons plezier. Dat deden ze om bestuivers aan te trekken. Om te begrijpen waarom bloemen zulke levendige kleuren produceren, moeten we daarom nadenken over hoe bestuivers zoals bijen kleur waarnemen.
+Wanneer waargenomen onder een krachtige microscoop, vertonen de meeste bloembladen een gestructureerd oppervlak dat bestaat uit toppen of "hobbels". Ons onderzoek, gepubliceerd in het Journal of Pollination Ecology, laat zien dat deze structuren vaak zijn geëvolueerd om interactie te hebben met licht, om de kleur te versterken die wordt geproduceerd door de pigmenten onder het gestructureerde oppervlak.
 
-```
-function About() {
-  return <div>About</div>
-}
+## Sunshiney daze
 
-export default About
-```
+Bijen zoals honingbijen en hommels kunnen bloemkleuren waarnemen die voor ons onzichtbaar zijn, zoals die kleuren  welke worden geproduceerd door gereflecteerde ultraviolette straling.
+Planten moeten investeren in het produceren van betrouwbare en opvallende kleuren om op te vallen tussen andere plantensoorten. Bloemen die dit doen, hebben een grotere kans om bezocht te worden door bijen en succesvol bestuift te worden.
+Een probleem met bloemkleuren is echter dat zonlicht direct kan weerkaatsen op het oppervlak van een bloemblad. Dit kan mogelijk de kwaliteit van de pigmentkleur verminderen, afhankelijk van de kijkhoek.
+Je hebt dit misschien wel eens meegemaakt toen je op een zonnige dag naar een glad gekleurd oppervlak keek, waar de intensiteit van de kleur wordt beïnvloed door de richting van het licht dat op het oppervlak valt. We kunnen dit probleem oplossen door onze kijkpositie te veranderen, of door het object naar een meer geschikte plaats te brengen. Bijen daarentegen moeten bloemen zien op de plek waar ze bloeien.
+We waren geïnteresseerd in de vraag of dit visuele probleem ook voor bijen bestond en of planten speciale trucs hebben ontwikkeld om bijen te helpen ze gemakkelijker te vinden.
 
-### Pages with Dynamic Routes
+## Hoe bijen bloem oppervlakken gebruiken
 
-Next.js supports pages with dynamic routes. For example, if you create a file called `pages/posts/[id].js`, then it will be accessible at `posts/1`, `posts/2`, etc.
+Het is al enige tijd bekend dat bloeiende planten meestal kegelvormige celstructuren hebben in de textuur van hun bloemblad oppervlakken, en dat platte bloem blad oppervlakken relatief zeldzaam zijn. Een enkel planten gen kan manipuleren of een bloem kegelvormige cellen heeft binnen het oppervlak van een bloemblad, maar de reden waarom dit is geëvolueerd, is onduidelijk gebleven.
+Eerder onderzoek suggereerde dat het conische bloem bladoppervlak fungeerde als een signaal om bestuivers aan te trekken. Maar experimenten met bijen hebben aangetoond dat dit niet het geval is. Andere verklaringen hebben betrekking op hydrofobiciteit (het vermogen om water af te stoten). Maar nogmaals, experimenten hebben aangetoond dat dit niet de enige reden kan zijn.
+We onderzochten hoe hommels bloem oppervlakken gebruiken met of zonder kegelvormige bloem bladvormen. Bijen zijn een nuttig dier voor onderzoek, omdat ze kunnen worden getraind om een ​​beloning te verzamelen en kunnen worden getest om te zien hoe ze hun omgeving waarnemen.
+Hommels kunnen ook binnenshuis worden gehuisvest en getest, waar het gemakkelijker is om een ​​complexe bloemen omgeving nauwkeurig na te bootsen, zoals het in de natuur zou kunnen werken.
 
-> To learn more about dynamic routing, check the [Dynamic Routing documentation](/docs/routing/dynamic-routes.md).
+## Kunstbloemen voorzien in de behoeften van een bij be
 
-## Pre-rendering
+Onze collega in Duitsland heeft eerst de bloem blad oppervlakken g van een groot aantal planten gemeten en identificeerde de meest voorkomende conische oppervlakken.
+Ter vergelijking selecteerde ze een paar relatief gladde bloem blad- of blad oppervlakken die het licht van een kunstmatige bron weerkaatsen. Ten slotte werden van deze monsters blauwe afgietsels gemaakt en vervolgens getoond aan vrij vliegende bijen.
+In het experiment, uitgevoerd met hommels in Duitsland, kon een beloning voor suikeroplossing worden verzameld door bijen die naar een van de kunstbloemen vlogen. Ze moesten kiezen tussen vliegen naar "zonlicht" - wat kan resulteren in lichtreflecties die de kleur van de bloem beïnvloeden - of met de lichtbron achter de bij.
+Uit het experiment bleek dat wanneer er licht van achter de bijen kwam, er geen voorkeur was voor het bloemtype. Maar voor bijen die naar het licht toe vlogen, was er een significante voorkeur voor het kiezen van de bloem met een meer "hobbelig" conisch oppervlak. Dit hobbelige oppervlak diende om het binnenkomende licht te verspreiden, waardoor het kleursignaal van de bloem werd verbeterd.
 
-By default, Next.js **pre-renders** every page. This means that Next.js generates HTML for each page in advance, instead of having it all done by client-side JavaScript. Pre-rendering can result in better performance and SEO.
+De resultaten geven aan dat bloemen hoogstwaarschijnlijk hobbelige oppervlakken ontwikkelden om lichtreflecties te minimaliseren en de kleurverzadiging en intensiteit te behouden die nodig zijn om bestuivers te lokken. Mensen zijn waarschijnlijk gewoon de gelukkige begunstigden van deze oplossing die de biologie heeft ontwikkeld. Ook krijgen we intense bloemkleuren te zien. En daarvoor hebben we bestuivers te danken.
 
-Each generated HTML is associated with minimal JavaScript code necessary for that page. When a page is loaded by the browser, its JavaScript code runs and makes the page fully interactive. (This process is called _hydration_.)
 
-### Two forms of Pre-rendering
-
-Next.js has two forms of pre-rendering: **Static Generation** and **Server-side Rendering**. The difference is in **when** it generates the HTML for a page.
-
-- [**Static Generation (Recommended)**](#static-generation-recommended): The HTML is generated at **build time** and will be reused on each request.
-- [**Server-side Rendering**](#server-side-rendering): The HTML is generated on **each request**.
-
-Importantly, Next.js lets you **choose** which pre-rendering form you'd like to use for each page. You can create a "hybrid" Next.js app by using Static Generation for most pages and using Server-side Rendering for others.
-
-We **recommend** using **Static Generation** over Server-side Rendering for performance reasons. Statically generated pages can be cached by CDN with no extra configuration to boost performance. However, in some cases, Server-side Rendering might be the only option.
-
-You can also use **Client-side Rendering** along with Static Generation or Server-side Rendering. That means some parts of a page can be rendered entirely by client side JavaScript. To learn more, take a look at the [Data Fetching](/docs/basic-features/data-fetching.md#fetching-data-on-the-client-side) documentation.
-
-## Static Generation (Recommended)
-
-If a page uses **Static Generation**, the page HTML is generated at **build time**. That means in production, the page HTML is generated when you run `next build` . This HTML will then be reused on each request. It can be cached by a CDN.
-
-In Next.js, you can statically generate pages **with or without data**. Let's take a look at each case.
-
-### Static Generation without data
-
-By default, Next.js pre-renders pages using Static Generation without fetching data. Here's an example:
-
-```
-function About() {
-  return <div>About</div>
-}
-
-export default About
-```
-
-Note that this page does not need to fetch any external data to be pre-rendered. In cases like this, Next.js generates a single HTML file per page during build time.
-
-### Static Generation with data
-
-Some pages require fetching external data for pre-rendering. There are two scenarios, and one or both might apply. In each case, you can use a special function Next.js provides:
-
-1. Your page **content** depends on external data: Use `getStaticProps`.
-2. Your page **paths** depend on external data: Use `getStaticPaths` (usually in addition to `getStaticProps`).
-
-#### Scenario 1: Your page **content** depends on external data
-
-**Example**: Your blog page might need to fetch the list of blog posts from a CMS (content management system).
-
-```
-// TODO: Need to fetch `posts` (by calling some API endpoint)
-//       before this page can be pre-rendered.
-function Blog({ posts }) {
-  return (
-    <ul>
-      {posts.map((post) => (
-        <li>{post.title}</li>
-      ))}
-    </ul>
-  )
-}
-
-export default Blog
-```
-
-To fetch this data on pre-render, Next.js allows you to `export` an `async` function called `getStaticProps` from the same file. This function gets called at build time and lets you pass fetched data to the page's `props` on pre-render.
-
-```
-function Blog({ posts }) {
-  // Render posts...
-}
-
-// This function gets called at build time
-export async function getStaticProps() {
-  // Call an external API endpoint to get posts
-  const res = await fetch('https://.../posts')
-  const posts = await res.json()
-
-  // By returning { props: { posts } }, the Blog component
-  // will receive `posts` as a prop at build time
-  return {
-    props: {
-      posts
-    }
-  }
-}
-
-export default Blog
-```
-
-To learn more about how `getStaticProps` works, check out the [Data Fetching documentation](/docs/basic-features/data-fetching.md#getstaticprops-static-generation).
-
-#### Scenario 2: Your page paths depend on external data
-
-Next.js allows you to create pages with **dynamic routes**. For example, you can create a file called `pages/posts/[id].js` to show a single blog post based on `id`. This will allow you to show a blog post with `id: 1` when you access `posts/1`.
-
-> To learn more about dynamic routing, check the [Dynamic Routing documentation](/docs/routing/dynamic-routes.md).
-
-However, which `id` you want to pre-render at build time might depend on external data.
-
-**Example**: suppose that you've only added one blog post (with `id: 1`) to the database. In this case, you'd only want to pre-render `posts/1` at build time.
-
-Later, you might add the second post with `id: 2`. Then you'd want to pre-render `posts/2` as well.
-
-So your page **paths** that are pre-rendered depend on external data**.** To handle this, Next.js lets you `export` an `async` function called `getStaticPaths` from a dynamic page (`pages/posts/[id].js` in this case). This function gets called at build time and lets you specify which paths you want to pre-render.
-
-```
-// This function gets called at build time
-export async function getStaticPaths() {
-  // Call an external API endpoint to get posts
-  const res = await fetch('https://.../posts')
-  const posts = await res.json()
-
-  // Get the paths we want to pre-render based on posts
-  const paths = posts.map((post) => ({
-    params: { id: post.id }
-  }))
-
-  // We'll pre-render only these paths at build time.
-  // { fallback: false } means other routes should 404.
-  return { paths, fallback: false }
-}
-```
-
-Also in `pages/posts/[id].js`, you need to export `getStaticProps` so that you can fetch the data about the post with this `id` and use it to pre-render the page:
-
-```
-function Post({ post }) {
-  // Render post...
-}
-
-export async function getStaticPaths() {
-  // ...
-}
-
-// This also gets called at build time
-export async function getStaticProps({ params }) {
-  // params contains the post `id`.
-  // If the route is like /posts/1, then params.id is 1
-  const res = await fetch(`https://.../posts/${params.id}`)
-  const post = await res.json()
-
-  // Pass post data to the page via props
-  return { props: { post } }
-}
-
-export default Post
-```
-
-To learn more about how `getStaticPaths` works, check out the [Data Fetching documentation](/docs/basic-features/data-fetching.md#getstaticpaths-static-generation).
-
-### When should I use Static Generation?
-
-We recommend using **Static Generation** (with and without data) whenever possible because your page can be built once and served by CDN, which makes it much faster than having a server render the page on every request.
-
-You can use Static Generation for many types of pages, including:
-
-- Marketing pages
-- Blog posts
-- E-commerce product listings
-- Help and documentation
-
-You should ask yourself: "Can I pre-render this page **ahead** of a user's request?" If the answer is yes, then you should choose Static Generation.
-
-On the other hand, Static Generation is **not** a good idea if you cannot pre-render a page ahead of a user's request. Maybe your page shows frequently updated data, and the page content changes on every request.
-
-In cases like this, you can do one of the following:
-
-- Use Static Generation with **Client-side Rendering:** You can skip pre-rendering some parts of a page and then use client-side JavaScript to populate them. To learn more about this approach, check out the [Data Fetching documentation](/docs/basic-features/data-fetching.md#fetching-data-on-the-client-side).
-- Use **Server-Side Rendering:** Next.js pre-renders a page on each request. It will be slower because the page cannot be cached by a CDN, but the pre-rendered page will always be up-to-date. We'll talk about this approach below.
-
-## Server-side Rendering
-
-> Also referred to as "SSR" or "Dynamic Rendering".
-
-If a page uses **Server-side Rendering**, the page HTML is generated on **each request**.
-
-To use Server-side Rendering for a page, you need to `export` an `async` function called `getServerSideProps`. This function will be called by the server on every request.
-
-For example, suppose that your page needs to pre-render frequently updated data (fetched from an external API). You can write `getServerSideProps` which fetches this data and passes it to `Page` like below:
-
-```
-function Page({ data }) {
-  // Render data...
-}
-
-// This gets called on every request
-export async function getServerSideProps() {
-  // Fetch data from external API
-  const res = await fetch(`https://.../data`)
-  const data = await res.json()
-
-  // Pass data to the page via props
-  return { props: { data } }
-}
-
-export default Page
-```
-
-As you can see, `getServerSideProps` is similar to `getStaticProps`, but the difference is that `getServerSideProps` is run on every request instead of on build time.
-
-To learn more about how `getServerSideProps` works, check out our [Data Fetching documentation](/docs/basic-features/data-fetching.md#getserversideprops-server-side-rendering)
-
-## Summary
-
-We've discussed two forms of pre-rendering for Next.js.
-
-- **Static Generation (Recommended):** The HTML is generated at **build time** and will be reused on each request. To make a page use Static Generation, either export the page component, or export `getStaticProps` (and `getStaticPaths` if necessary). It's great for pages that can be pre-rendered ahead of a user's request. You can also use it with Client-side Rendering to bring in additional data.
-- **Server-side Rendering:** The HTML is generated on **each request**. To make a page use Server-side Rendering, export `getServerSideProps`. Because Server-side Rendering results in slower performance than Static Generation, use this only if absolutely necessary.
