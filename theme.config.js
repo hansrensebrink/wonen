@@ -3,7 +3,8 @@ const YEAR = new Date().getFullYear()
 export default {
   footer: (
     <small style={{ display: 'block', marginTop: '8rem' }}>
-      <time>{YEAR}</time> Wonen Blog <a target="_blank" rel="noopener" href="https://wonen.vercel.app/">Wonen Blog</a>
+      <time>{YEAR}</time> <a target="_blank" rel="noopener" href="https://wonen.vercel.app/">Wonen Blog</a>
+
       <a href="/feed.xml">RSS</a>
       <style jsx>{`
         a {
